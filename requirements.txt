@@ -1,6 +1,11 @@
 python-telegram-bot>=21.0
-maigret>=0.5.0
+python-dotenv>=1.0
+sherlock-project
 holehe>=1.4
-requests
-python-dotenv
-theharvester
+theHarvester
+social-analyzer
+
+# Tools with no pip package — install manually:
+#   phoneinfoga: go install -v github.com/sensepost/phoneinfoga/v2/cmd/phoneinfoga@latest
+#   amass:       golanggo install -v github.com/owasp-amass/amass/v5/...@master
+#   sublist3r:   cd tools/sublist3r && pip install -r requirements.txt
